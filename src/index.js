@@ -22,7 +22,7 @@ class Square extends React.Component {
 
   return (
     <div>
-
+      <div className="status">{status}</div>
     </div>
     );
 
