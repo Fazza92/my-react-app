@@ -19,6 +19,14 @@ class Square extends React.Component {
           />;
       );
   }
+  function Square(props) {
+  return (
+    <button className="square" onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
+}
+
 
   render() {
     const status = "Next player: X";
